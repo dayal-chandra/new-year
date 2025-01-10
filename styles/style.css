@@ -14,7 +14,7 @@
       rgb(7, 2, 17),
       rgba(7, 2, 17, 0) 100%
     ),
-    url("/images/banner.png");
+    url("../images/banner.png");
   background-position: center;
   border-radius: 16px;
   max-width: 1230px;
@@ -69,7 +69,7 @@
 .midnight {
   border-radius: 16px;
   background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
-    url("/images/Vectorrr.png");
+    url("../images/Vectorrr.png");
   background-repeat: no-repeat;
   max-width: 1230px;
   height: 600px;
@@ -236,7 +236,8 @@ span {
 }
 
 .holiday-image {
-  background-image: url("/images/red-card.png"), url("/images/girl-bags.png");
+  background-image: url("../images/red-card.png"),
+    url("../images/girl-bags.png");
   background-repeat: no-repeat;
   background-position: bottom, top right;
   border-radius: 16px;
